@@ -5,7 +5,6 @@ import org.example.enums.FlashcardFamiliarity;
 public class Flashcard {
     private String question;
     private String answer;
-
     private FlashcardFamiliarity familiarity;
 
     public Flashcard (String question, String answer, FlashcardFamiliarity familiarity){
